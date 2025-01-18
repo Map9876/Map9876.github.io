@@ -231,3 +231,13 @@ error: remote origin already exists.
  
 如果clone别的的仓库，之后再自己上传到自己储存库
 还是会显示原作者 xx committed 3 days ago，而且时间也是3天前，
+
+
+git add .
+~/jasonkhew96.github.io $ git commit -m "first commit"
+[main 46fbc35] first commit
+ 8 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 _posts/Screenshot_20250118_190205_com_hihonor_baidu_browser_LightSearchActivity.jpg
+ create mode 100644 _posts/Screenshot_20250118_193332_com_hihonor_baidu_browser_LightSearchActivity.jpg
+ create mode 100644 _posts/Screenshot_202
+ git add .会添加新的内容 然后git commit 会显示出来
